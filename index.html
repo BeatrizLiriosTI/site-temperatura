@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App de Clima</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Clima Agora</h1>
+        <div class="busca">
+            <input type="text" id="campo-cidade" placeholder="Digite a cidade...">
+            <button id="botao-buscar">Buscar</button>
+        </div>
+
+        <div id="resultado" class="hidden">
+            <h2 id="cidade-nome">Cidade</h2>
+            <p id="temperatura">-- °C</p>
+        </div>
+    </div>
+
+    <script type="module" src="src/main.js"></script>
+</body>
+
+</html>
